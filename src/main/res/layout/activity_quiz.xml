@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textViewProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="1/4"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/textViewQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Загрузка..."
+        android:textSize="20sp"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/buttonOption1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Вариант 1"
+        style="@style/Widget.Material3.Button.OutlinedButton" />
+
+    <Button
+        android:id="@+id/buttonOption2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Вариант 2"
+        style="@style/Widget.Material3.Button.OutlinedButton" />
+
+    <Button
+        android:id="@+id/buttonOption3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Вариант 3"
+        style="@style/Widget.Material3.Button.OutlinedButton" />
+
+    <Button
+        android:id="@+id/buttonOption4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Вариант 4"
+        style="@style/Widget.Material3.Button.OutlinedButton" />
+
+</LinearLayout>
